@@ -1,0 +1,47 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @KasiaPiatek
+Sign out
+0
+0 0 WhitePete/modul-16
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+modul-16/src/components/Todo.css
+a544713  on 12 Mar
+@WhitePete WhitePete Finish styles
+     
+37 lines (33 sloc)  700 Bytes
+.Todo {
+  display: grid;
+  background: rgba(136, 215, 252, 0.7);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  grid-template-columns: minmax(300px, 1fr) 40px;
+  grid-gap: 10px;
+  align-items: center;
+  color: #333;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color .2s ease-out;
+}
+
+.Todo:hover {
+  background-color: #4db0ee;
+  cursor: pointer;
+}
+
+.Todo button {
+  padding: 4px;
+  font-size: 12px;
+  margin: 5px;
+  margin-right: 0px;
+  background-color: yellow;
+  color: #FFF;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+}

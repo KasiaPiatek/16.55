@@ -1,0 +1,15 @@
+.Title {
+  text-align: center;
+}
+
+.Title h1 {
+  color: blue;
+  font-size: 62px;
+  margin: 0;
+  padding: 20px;
+}
+
+.Title h2 {
+  margin: 0 0 20px 0;
+  color: #fff
+}
